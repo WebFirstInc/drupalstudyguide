@@ -21,3 +21,6 @@ web/
 
 # Mac specific
 .DS_Store
+
+# Ignore .env files as they are personal.
+.env

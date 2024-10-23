@@ -69,6 +69,8 @@ jobs:
 
       - name: ⚡️ Build site with VitePress
         run: pnpm book:build
+        env:
+          VITE_GTAG: ${{ vars.VITE_GTAG }}
 
       - name: 📤 Upload artifact
         uses: actions/upload-pages-artifact@v3

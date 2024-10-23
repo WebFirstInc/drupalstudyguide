@@ -25,7 +25,7 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     vitepressBackToTop({ threshold: 300 });
-    googleAnalytics({ id: '8V22RQEJ71' });
+    googleAnalytics({ id: import.meta.env.VITE_GTAG });
   },
   setup: () => {
     // Get frontmatter and route
