@@ -34,7 +34,7 @@ export default defineConfig({
       { text: 'About', link: '/about' },
       { text: 'Attribution', link: '/attribution' },
       { text: 'Contribute', link: '/contribute' },
-      { text: 'Fork me', link: 'https://github.com/selwynpolit/studyguide/fork' },
+      { text: 'Fork me', link: 'https://github.com/WebFirstInc/drupalstudyguide/fork' },
     ],
 
     outline: {
@@ -46,7 +46,7 @@ export default defineConfig({
     },
 
     editLink: {
-      pattern: 'https://github.com/selwynpolit/studyguide/edit/gh-pages/docs/:path',
+      pattern: 'https://github.com/WebFirstInc/drupalstudyguide/edit/gh-pages/docs/:path',
       text: 'Edit this page on GitHub',
     },
 
@@ -153,14 +153,14 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'x', link: '//twitter.com/selwynpolit' },
-      { icon: 'github', link: '//github.com/selwynpolit' },
+      { icon: 'linkedin', link: '//linkedin.com/company/webfirst/' },
+      { icon: 'github', link: '//github.com/WebFirstInc' },
     ],
 
     footer: {
       message:
         '<span>\n' +
-        '  <a property="dct:title" rel="cc:attributionURL" href="//selwynpolit.github.io/d9book">Drupal Study Guide</a>\n' +
+        '  <a property="dct:title" rel="cc:attributionURL" href="//WebFirstInc.github.io/d9book">Drupal Study Guide</a>\n' +
         '  by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.webfirst.com/" target="_blank">WebFirst</a>\n' +
         '  is licensed under <a href="//creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0\n' +
         '  </a><br>Drupal is a registered trademark of Dries Buytaert</span>',

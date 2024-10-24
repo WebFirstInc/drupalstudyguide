@@ -16,7 +16,7 @@ hero:
 
     - theme: alt
       text: See on GitHub
-      link: //github.com/selwynpolit/studyguide
+      link: //github.com/WebFirstInc/drupalstudyguide
 
 features:
   - icon: 🎯
