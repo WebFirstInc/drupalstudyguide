@@ -129,27 +129,7 @@ export default defineConfig({
           },
 
         ]
-      },
-      {
-        text: 'Backend Specialist',
-        collapsed: true,
-        items: [
-          {text: 'Introduction', link: '/backend-specialist/intro.md'},
-          {text: '1.0 Fundamental Web Development Concepts', link: '/backend-specialist/fundamental-web-dev-concepts.md'},
-          {
-            text: '2.0 Drupal Core API', link: '/backend-specialist/2-drupal-core-api.md',
-            items: [
-              { text: '2.2 Form API', link: '/backend-specialist/2.2-form-api.md' },
-              { text: '2.3 Entity API', link: '/backend-specialist/2.3-entity-api.md' },
-            ]
-          },
-          {text: '3.0 Debug Code and Troubleshooting', link: '/backend-specialist/3-debug-code-troubleshooting.md'},
-          {text: '4.0 Theme Integration', link: '/backend-specialist/backend-specialist/theme-integration.md'},
-          {text: '6.0 Security', link: '/backend-specialist/backend-specialist/security.md'},
-          {text: '7.0 Leveraging Community', link: '/backend-specialist/leverage-community.md'},
-        ]
       }
-
     ],
 
     socialLinks: [
@@ -160,7 +140,7 @@ export default defineConfig({
     footer: {
       message:
         '<span>\n' +
-        '  <a property="dct:title" rel="cc:attributionURL" href="//WebFirstInc.github.io/d9book">Drupal Study Guide</a>\n' +
+        '  <a property="dct:title" rel="cc:attributionURL" href="//webfirstinc.github.io/drupalstudyguide/">Drupal Study Guide</a>\n' +
         '  by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.webfirst.com/" target="_blank">WebFirst</a>\n' +
         '  is licensed under <a href="//creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0\n' +
         '  </a><br>Drupal is a registered trademark of Dries Buytaert</span>',

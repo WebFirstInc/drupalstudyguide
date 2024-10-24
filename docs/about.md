@@ -9,7 +9,7 @@ This is a study guide for developers who want to get Acquia certified. It is div
 
 - [Developer](developer/intro)
 - Front End Specialist 
-- [Back End Specialist](backend-specialist/intro)
+- Back End Specialist
 - Site Builder
 
 
