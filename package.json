@@ -2,8 +2,8 @@
   "homepage": "https://selwynpolit.github.io/studyguide",
   "license": "CC-BY-4.0",
   "author": {
-    "name": "Selwyn Polit",
-    "url": "https://github.com/selwynpolit"
+    "name": "WebFirstInc",
+    "url": "https://github.com/WebFirstInc"
   },
   "scripts": {
     "book:dev": "vitepress dev",
