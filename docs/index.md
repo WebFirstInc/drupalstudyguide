@@ -19,23 +19,24 @@ hero:
       link: //github.com/WebFirstInc/drupalstudyguide
 
 features:
-  - icon: 🪣
-    title: Developer
-    details: The developer is responsible for the site building, theming, and custom module development.
-    link: /developer/intro  
-
-  - icon: 🎯
-    title: Back End Specialist
-    details: Coming Soon
-    link: /
-
-  - icon: 🔢
-    title: Front End Specialist
-    details: Coming Soon
-    link: /
-
   - icon: 🧱
-    title: Site Builder
-    details: Coming Soon
-    link: /
+    title: Fundamentals
+    details: Essential Information for Web Development
+    link: /fundamentals/1.1-html-css
+    
+  - icon: 🏗️
+    title: Site Building
+    details: A guide to mastering Drupal site building, covering content, modules, theming, and site structure.
+    link: /site-building/2.1-content-types 
+
+  - icon: 🖼️
+    title: Front-End Development
+    details: A guide to Drupal front-end development, focusing on themes, templates, and responsive design.
+    link: /front-end/3.1-creating-themes
+
+  - icon: ⚙️
+    title: Back-End Development
+    details: A guide to mastering Drupal back-end development, covering custom modules, APIs, and site functionality.
+    link: /back-end/4.1-oop
+
 ---
