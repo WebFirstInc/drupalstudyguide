@@ -12,12 +12,8 @@ export default defineConfig({
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/studyguide/images/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/drupalstudyguide/images/favicon.ico' }]
   ],
-  //rewrites: {
-  //'nodes_n_fields.md': 'nodes-and-fields.md',
-  //'off_the_island.md': 'off-island.md',
-  //},
 
   vite: {
     envDir: './../',
@@ -26,7 +22,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/docs/images/d9book.svg',
+    logo: '/drupalstudyguide/images/main-logo.png',
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
