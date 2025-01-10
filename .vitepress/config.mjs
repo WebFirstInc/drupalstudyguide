@@ -22,7 +22,7 @@ export default defineConfig({
     }
   },
   themeConfig: {
-    logo: '/drupalstudyguide/images/main-logo.png',
+    logo: '/images/main-logo.png',
 
     // https://vitepress.dev/reference/default-theme-config
     nav: [
