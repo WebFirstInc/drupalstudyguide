@@ -28,7 +28,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'About', link: '/about' },
-      { text: 'Attribution', link: '/attribution' },
+      { text: 'Attributions', link: '/attributions' },
       { text: 'Contribute', link: '/contribute' },
       { text: 'Fork me', link: 'https://github.com/WebFirstInc/drupalstudyguide/fork' }
     ],
@@ -50,6 +50,14 @@ export default defineConfig({
       {
         text: 'Introduction',
         link: '/intro.md'
+      },
+      {
+        text: 'Success Stories',
+        link: '/success-stories.md'
+      },
+      {
+        text: 'Key Core Version Changes',
+        link: '/key-core-version-changes.md'
       },
       {
         text: '1.0 Fundamentals',
@@ -120,7 +128,11 @@ export default defineConfig({
           { text: '4.6 Performance', link: '/back-end/4.6-performance.md' },
           { text: '4.7 Security', link: '/back-end/4.7-security.md' }
         ]
-      }
+      },
+      { text: 'About', link: '/about' },
+      { text: 'Attributions', link: '/attributions' },
+      { text: 'Contribute', link: '/contribute' },
+      { text: 'Fork me', link: 'https://github.com/WebFirstInc/drupalstudyguide/fork' }
     ],
 
     socialLinks: [
