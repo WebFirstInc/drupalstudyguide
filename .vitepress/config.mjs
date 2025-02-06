@@ -60,6 +60,15 @@ export default defineConfig({
         link: '/key-core-version-changes.md'
       },
       {
+        text: 'Self Evaluation',
+        collapsed: true,
+        items: [
+          { text: 'Drupal Developer', link: '/self-evaluation/drupal-developer-exam' },
+          { text: 'Drupal Frontend Specialist', link: '/self-evaluation/drupal-frontend-specialist-exam' },
+          { text: 'Drupal Backend Specialist', link: '/self-evaluation/drupal-backend-specialist-exam' }
+        ]
+      },
+      {
         text: '1.0 Fundamentals',
         collapsed: true,
         items: [
