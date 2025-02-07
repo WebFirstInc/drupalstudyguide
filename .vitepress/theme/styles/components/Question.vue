@@ -7,10 +7,9 @@ const props = defineProps({
 <style>
 details.studyguide-question {
   padding: 0;
-  margin: 0;
+  margin: 1rem 0 0 0;
   border-radius: 8px;
   border: 1px solid var(--vp-c-border);
-
 
   &:hover {
     border-color: var(--vp-c-brand-1);
@@ -18,10 +17,7 @@ details.studyguide-question {
 
   &[open] summary {
     border-radius: 8px 8px 0 0;
-  }
-
-  + & {
-    margin-top: 1rem;
+    border-bottom: 1px solid var(--vp-c-gray-2);
   }
 
   summary {
@@ -33,7 +29,6 @@ details.studyguide-question {
 
     &:hover {
       text-decoration: underline;
-      /* background-color: var(--vp-c-gray-3); */
     }
   }
 
@@ -45,7 +40,7 @@ details.studyguide-question {
 
 <template>
   <details class='studyguide-question'>
-    <summary>{{ title }}</summary>
+    <summary><slot name="title">{{ title }}</slot></summary>
     <div class="content">
       <slot></slot>
     </div>
