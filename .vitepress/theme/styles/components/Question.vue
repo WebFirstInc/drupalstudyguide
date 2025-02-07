@@ -40,7 +40,7 @@ details.studyguide-question {
 
 <template>
   <details class='studyguide-question'>
-    <summary><slot name="title">{{ title }}</slot></summary>
+    <summary>{{ title }}</summary>
     <div class="content">
       <slot></slot>
     </div>
