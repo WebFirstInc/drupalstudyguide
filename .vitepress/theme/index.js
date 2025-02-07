@@ -12,6 +12,7 @@ import 'viewerjs/dist/viewer.min.css';
 import '@nolebase/vitepress-plugin-enhanced-readabilities/client/style.css';
 import './style.css';
 import './styles/components/vp-doc.css';
+import Question from './styles/components/Question.vue';
 
 /** @type {import('vitepress').Theme} */
 export default {
@@ -26,6 +27,7 @@ export default {
   enhanceApp({ app, router, siteData }) {
     vitepressBackToTop({ threshold: 300 });
     googleAnalytics({ id: import.meta.env.VITE_GTAG });
+    app.component('Question', Question);
   },
   setup: () => {
     // Get frontmatter and route
