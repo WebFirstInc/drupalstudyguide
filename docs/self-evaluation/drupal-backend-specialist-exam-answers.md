@@ -80,8 +80,8 @@
 > **Reference**: [Writing secure code for Drupal](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/writing-secure-code-for-drupal)  
 
 **16. What is the correct permissions for index.php?**
-> **Answer**: C. Password Policy  
-> **Explanation**: The "index.php" file (representative of all code files) can be edited by "deploy" and   can be read by the www-data group (we assume the www-data user is in the www-data group). No other users can read that file. This is a fairly secure method of configuring your site. You generally don't want random users who have the ability to read files on your server to see inside those files, hence the last three permissions are --- instead of r-x.  
+> **Answer**: A. -rw-r-----
+> **Explanation**: The "index.php" file (representative of all code files) can be edited by "deploy" and can be read by the www-data group (we assume the www-data user is in the www-data group). No other users can read that file. This is a fairly secure method of configuring your site. You generally don't want random users who have the ability to read files on your server to see inside those files, hence the last three permissions are --- instead of r-x.  
 > **Reference**: [Securing file permissions and ownership](https://www.drupal.org/docs/administering-a-drupal-site/security-in-drupal/securing-file-permissions-and-ownership)  
 
 **17. What is the correct way to write a message to Drupal’s log file?**

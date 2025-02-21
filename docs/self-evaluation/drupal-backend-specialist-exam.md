@@ -112,9 +112,9 @@ This self-evaluation quiz consists of **20 questions** covering key topics from 
 - D. Disable cache for all user-generated content.
 
 **16. What is a safe configuration for index.php?**
-- A. -rw-r--r--
+- A. -rw-r-----
 - B. -rwxrw-r--
-- B. -rwxr-xr-x
+- C. -rwxr-xr-x
 - D. -rw-rw-rw-
 
 ---
