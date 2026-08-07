@@ -1,6 +1,6 @@
 # Welcome to WebFirst's Acquia/Drupal Study Guide
 
-### Available at [webfirstinc.github.io/drupalstudyguide/](//webfirstinc.github.io/drupalstudyguide/)
+### Available at [drupalstudyguide.webfirst.dev](https://drupalstudyguide.webfirst.dev/)
 
 Developer Certification Study Guide is an updated version of https://github.com/WidgetsBurritos/d8-studyguide.
 
