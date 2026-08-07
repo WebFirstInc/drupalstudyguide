@@ -1,21 +1,18 @@
 import { defineConfig } from 'vitepress';
 import { generateSidebar } from 'vitepress-sidebar';
 
-// Default to site root (Cloudflare). GitHub Pages sets BASE_PATH=/drupalstudyguide.
-const base = process.env.BASE_PATH || '/';
-
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Drupal Study Guide',
   description:
     'Acquia Drupal certification study guide',
-  base,
+  base: '/',
   srcDir: './docs',
   outDir: './dist',
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: `${base}/images/favicon.ico`.replace('//', '/') }]
+    ['link', { rel: 'icon', href: '/images/favicon.ico' }]
   ],
 
   vite: {
@@ -155,7 +152,7 @@ export default defineConfig({
     footer: {
       message:
         '<span>\n' +
-        '  <a property="dct:title" rel="cc:attributionURL" href="//webfirstinc.github.io/drupalstudyguide/">Drupal Study Guide</a>\n' +
+        '  <a property="dct:title" rel="cc:attributionURL" href="https://drupalstudyguide.webfirst.dev/">Drupal Study Guide</a>\n' +
         '  by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://www.webfirst.com/" target="_blank">WebFirst</a>\n' +
         '  is licensed under <a href="//creativecommons.org/licenses/by/4.0/" target="_blank" rel="license noopener noreferrer">CC BY 4.0\n' +
         '  </a><br>Drupal is a registered trademark of Dries Buytaert</span>'
