@@ -40,7 +40,7 @@
 > **Reference**: [Working With Twig Templates](https://www.drupal.  org/docs/develop/theming-drupal/twig-in-drupal/working-with-twig-templates)  
 
 **8. Where are theme `.twig` files stored in a custom Drupal theme?**
-> **Answer**: B. `/themes/{theme_name}/templates/`    
+> **Answer**: B. `/themes/custom/{theme_name}/templates/`    
 > **Explanation**: In a custom Drupal theme, Twig template files are typically stored in the `templates`   directory within the theme's folder.  
 > **Reference**: [Working With Twig Templates](https://www.drupal.  org/docs/develop/theming-drupal/twig-in-drupal/working-with-twig-templates)  
 
