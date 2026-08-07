@@ -1,18 +1,21 @@
 import { defineConfig } from 'vitepress';
 import { generateSidebar } from 'vitepress-sidebar';
 
+// Default to site root (Cloudflare). GitHub Pages sets BASE_PATH=/drupalstudyguide.
+const base = process.env.BASE_PATH || '/';
+
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Drupal Study Guide',
   description:
     'Acquia Drupal certification study guide',
-  base: '/drupalstudyguide',
+  base,
   srcDir: './docs',
   outDir: './dist',
   cleanUrls: true,
   lastUpdated: true,
   head: [
-    ['link', { rel: 'icon', href: '/drupalstudyguide/images/favicon.ico' }]
+    ['link', { rel: 'icon', href: `${base}/images/favicon.ico`.replace('//', '/') }]
   ],
 
   vite: {
